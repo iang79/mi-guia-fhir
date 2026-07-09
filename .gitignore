@@ -5,3 +5,10 @@ Thumbs.db
 /output
 /temp
 /template
+
+# Archivos generados que no deben subirse
+temp/
+output/
+input-cache/
+.DS_Store
+*.log
