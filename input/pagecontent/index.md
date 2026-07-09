@@ -1,14 +1,14 @@
 # mi-guia-implementacion
 
 ## Introducción
-Esta guía define los perfiles de FHIR para [descripción breve de tu caso de uso, ej: intercambio de información de pacientes].
+Breve descripción de qué es esta guía y para qué sirve. 
 
-## Alcance
-Esta guía está dirigida a desarrolladores que necesiten integrar sistemas con nuestra API FHIR siguiendo el estándar R4.
+## Caso de uso
+Describe el flujo clínico o administrativo (ej: "Esta guía permite la solicitud de medicamentos entre el médico de cabecera y la farmacia").
 
-## Contenido
-- **Perfiles:** Definiciones de recursos adaptadas (Ej: MiPaciente).
-- **Ejemplos:** Instancias JSON para pruebas de integración.
+## Recursos definidos
+- **Paciente:** Definición de los datos demográficos.
+- **Prescripción:** Reglas para la medicación.
 
-## Soporte
-Para consultas técnicas, por favor abra un *issue* en el repositorio de GitHub.
+## Licencia y contacto
+Indica si el uso es libre o bajo qué condiciones se puede utilizar este estándar.
