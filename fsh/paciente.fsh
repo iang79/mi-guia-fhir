@@ -1,9 +1,11 @@
 Profile: MiPaciente
 Parent: Patient
 Id: mi-paciente
-Title: "Mi Perfil de Paciente"
-Description: "Un perfil simple de paciente para mi sistema."
+Title: "Perfil de Paciente"
+* name 1..* MS  // MS significa "Must Support", muy importante para que terceros sepan qué campos obligatoriamente deben procesar
 
-* name 1..1 MS
-* birthDate 1..1 MS
-* gender MS
+Instance: PatientExample
+InstanceOf: MiPaciente
+Usage: #example
+* name.family = "Angulo"
+* name.given = "Iñaki"
