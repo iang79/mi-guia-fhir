@@ -3,7 +3,7 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: "0001"
+id: "mi-guia-implementacion"
 canonical: http://ejemplo.org/fhir/mi-guia
 name: mi-guia-implementacion
 # title: Example Title
@@ -11,7 +11,7 @@ name: mi-guia-implementacion
 status: draft # draft | active | retired | unknown
 version: 5.0.1
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
-# template: hl7.fhir.template#current 
+template: hl7.fhir.template#current 
 copyrightYear: 2026+
 releaseLabel: ci-build
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
