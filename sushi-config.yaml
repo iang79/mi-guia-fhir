@@ -79,11 +79,6 @@ menu:
   Home: index.html
   Artifacts: artifacts.html
 
-# Parámetros de configuración del IG Publisher
-parameters:
-  # Añadimos el parámetro para inyectar la hoja de estilos personalizada
-  style-sheet: assets/css/custom.css
-
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
 # │  resource. These properties are less commonly needed than those above.                         │
