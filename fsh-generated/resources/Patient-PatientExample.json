@@ -1,0 +1,17 @@
+{
+  "resourceType": "Patient",
+  "id": "PatientExample",
+  "meta": {
+    "profile": [
+      "http://ejemplo.org/fhir/mi-guia/StructureDefinition/MyPatient"
+    ]
+  },
+  "name": [
+    {
+      "given": [
+        "James"
+      ],
+      "family": "Pond"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "0001",
+  "url": "http://ejemplo.org/fhir/mi-guia/ImplementationGuide/0001",
+  "version": "5.0.1",
+  "name": "miguiaimplementacion",
+  "status": "draft",
+  "publisher": "InakiDemo",
+  "contact": [
+    {
+      "name": "InakiDemo",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.org/example-publisher"
+        }
+      ]
+    }
+  ],
+  "packageId": "0001",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.uv.extensions",
+      "version": "5.3.0",
+      "uri": "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+      "id": "hl7_fhir_uv_extensions"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/MyPatient"
+        },
+        "name": "MyPatient",
+        "description": "An example profile of the Patient resource.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Patient/PatientExample"
+        },
+        "name": "PatientExample",
+        "description": "An example of a patient with a license to krill.",
+        "exampleCanonical": "http://ejemplo.org/fhir/mi-guia/StructureDefinition/MyPatient"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2026+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}
