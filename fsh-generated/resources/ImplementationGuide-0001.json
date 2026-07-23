@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "0001",
   "url": "http://ejemplo.org/fhir/mi-guia/ImplementationGuide/0001",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "name": "miguiaimplementacion",
   "status": "draft",
   "publisher": "InakiDemo",

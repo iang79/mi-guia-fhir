@@ -11,7 +11,7 @@ name: mi-guia-implementacion
 status: draft # draft | active | retired | unknown
 version: 5.0.2
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
-template: hl7.fhir.template#current 
+template: hl7.fhir.template #current 
 dependencies:
   hl7.fhir.uv.extensions: 5.3.0
 copyrightYear: 2026+
